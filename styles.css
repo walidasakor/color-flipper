@@ -1,72 +1,60 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
     box-sizing: border-box;
 }
-body{
-    margin: 0px auto;
-    text-align: center;
-    background: whitesmoke;
-}
-.nav-bar{
-    /* border-bottom: 2px ridge; */
-    position: sticky;
-    box-shadow: 1px 1px 10px;
-    background: white;
-}
-.nav-bar ul{
-    margin-left: 60px;
-}
-.nav-bar li{
-    display: inline-block;
-    list-style: none;
-    padding: 15px 30px;
-}
-.nav-bar li:first-child{
-    margin-left: 50px;
-}
-.nav-bar h4{
-    position: absolute;
-    font-size:15px;
-    padding: 15px;
-    color: rgb(233, 27, 154);
-    text-transform: capitalize;
-}
-.nav-bar li a{
-    text-decoration: none;
-    font-size: 14px;
-    color: black;
-    text-transform: capitalize;
-}
-.background{
-    text-align: center;
-    margin: 250px auto 0px auto;
-    background-color: rgb(100, 97, 99);
-    width: 90%;
-    padding: 40px;
-    border-radius: 8px;
-    font-size: 28px;
-    color: black;
-    border: 2px solid whitesmoke;
-    text-decoration-style: dashed;
-}
-button{
-    position: relative;
-    margin-top: 80px;
-    padding: 10px 20px;
-    font-size: larger;
-    border: 3px solid black;
-    border-radius: 4px;
-    background: transparent;
-    font-weight: bolder;
-    box-shadow: 1px 1px 4px;
-    
-}
-button:active{
-    background: white;
-    top: 4px;
-    left:-4px;
-}
-h3{
+
+.wrapper{
+    border: 1px solid;
+    padding: 20px 15px;
+    width: 190px;
+    height: 320px;
+    background: rgb(34, 44, 44);
     color: white;
+    margin: 100px auto;
+}
+#random-password{
+    color: rgb(36, 216, 81)
+}
+p{
+    color: whitesmoke;
+    font-size: 16px;
+}
+#generate{
+    width: 120px;
+    padding:4px;
+    font-size: 11px;
+    margin: 20px 0 0px 0px;
+    background: rgb(36, 216, 81);
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.line{
+    width: 180px;
+    height: 0px;
+    margin: 35px 0;
+    border-bottom: 0.2px ridge grey ;
+}
+
+#empty-button-1{
+    width: 170px;
+    background: rgb(60, 73, 73);
+    height: 20px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 15px;
+}
+#empty-button-2{
+    width: 170px;
+    background: rgb(60, 73, 73);
+    height: 20px;
+    border-radius: 4px;
+    border: none;
+}
+.empty-buttons{
+    display: flex;
+    
 }
